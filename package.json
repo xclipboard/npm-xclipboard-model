@@ -1,6 +1,6 @@
 {
   "name": "xclipboard-model",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "XClipboard app models.",
   "main": "./index.js",
   "dependencies": {
@@ -38,8 +38,8 @@
     "node": ">=5.8.0"
   },
   "readmeFilename": "README.md",
-  "_id": "xclipboard-model@1.0.0",
-  "_from": "xclipboard-model@^1.0.0",
+  "_id": "xclipboard-model@1.0.1",
+  "_from": "xclipboard-model@^1.0.1",
   "directories": {
     "test": "test"
   }
