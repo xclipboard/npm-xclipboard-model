@@ -1,0 +1,46 @@
+{
+  "name": "xclipboard-model",
+  "version": "1.0.0",
+  "description": "XClipboard app models.",
+  "main": "./index.js",
+  "dependencies": {
+    "assert-plus": "1.0.0",
+    "async": "1.5.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.2",
+    "mocha": "2.4.5"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --recursive test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --recursive test",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://zenedith@bitbucket.org/xclipboard/npm-xclipboard-model.git"
+  },
+  "keywords": [
+    "clipboard",
+    "cross",
+    "platform",
+    "app"
+  ],
+  "author": {
+    "name": "Zenedith",
+    "email": "zenedith@wp.pl"
+  },
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/xclipboard/npm-xclipboard-model",
+  "engines": {
+    "node": ">=5.8.0"
+  },
+  "readmeFilename": "README.md",
+  "_id": "xclipboard-model@1.0.0",
+  "_from": "xclipboard-model@^1.0.0",
+  "directories": {
+    "test": "test"
+  }
+}
