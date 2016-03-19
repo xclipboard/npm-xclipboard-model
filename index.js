@@ -6,6 +6,7 @@ module.exports = {
 
   error: {
     ClipboardNotFoundError: require('./lib/error/clipboardNotFoundError').ClipboardNotFoundError,
+    ClipboardPictogramAlreadyExistsError: require('./lib/error/clipboardPictogramAlreadyExistsError').ClipboardPictogramAlreadyExistsError,
     ServiceUnavailableError: require('./lib/error/serviceUnavailableError').ServiceUnavailableError
   },
   model: {
