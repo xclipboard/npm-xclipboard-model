@@ -3,12 +3,11 @@
   "version": "1.0.1",
   "description": "XClipboard app models.",
   "main": "./index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "3.5.0",
-    "istanbul": "0.4.2",
-    "mocha": "2.4.5"
+    "istanbul": "0.4.3",
+    "mocha": "2.5.3"
   },
   "scripts": {
     "prepublish": "npm prune",
